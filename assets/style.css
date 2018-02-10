@@ -8,6 +8,8 @@ html {
 	font-size: 22px;
 }
 
+/*heading styles*/
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -29,6 +31,8 @@ header {
 	margin: 0 10px 0 20px;
 	text-decoration: underline;
 }
+
+/*Mission Statement styles*/
 
 #mainArticle {
 	display: flex;
@@ -56,3 +60,49 @@ header {
 h2.narrative {
 	padding-bottom: 20px;
 }
+
+#teaOfTheMonth {
+	text-align: center;
+	width: 1000px;
+	margin: 150px auto;
+}
+
+#teaOfTheMonth h4 {
+	margin-bottom: 25px;
+}
+
+
+
+/* bottom pictures not quite like in the redline, which I could change with a div and put the images in seperate div container and manually assign margins */
+/*I prefer the flex-wrap attempt tho to make it more responsive*/
+
+#teaImg {
+	display: flex;
+	align-items: center;
+	justify-content: space-around; 
+	flex-wrap: wrap;
+}
+
+.images {
+	height: 200px;
+	width: 300px;
+}
+
+.desc {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.row {
+	display: flex;
+}
+
+#bottomImg {
+	display: flex;
+	margin: 0 auto;
+}
+
+.imgWrap {
+	margin-right: 30px;
+}
+
