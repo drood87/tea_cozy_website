@@ -1,0 +1,30 @@
+body,
+html {
+	margin: 0;
+	background-color: black;
+	font-family: "Helvetica", sans-serif;
+	color: seashell;
+	opacity: 0.9;
+	font-size: 22px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	z-index: 2;
+	height: 69px;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+}
+
+#teaLogo {
+	height: 50px;
+	margin-left: 10px;
+}
+
+.navItems {
+	margin: 0 10px 0 20px;
+	text-decoration: underline;
+}
