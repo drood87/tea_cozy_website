@@ -32,6 +32,8 @@ header {
 	text-decoration: underline;
 }
 
+/*===================================*/
+
 /*Mission Statement styles*/
 
 #mainArticle {
@@ -53,6 +55,10 @@ header {
 	width: 1200px;
 }
 
+/*===================================*/
+
+/*descriptive headings*/
+
 .narrative {
 	margin: 5px 5px;
 }
@@ -61,24 +67,22 @@ h2.narrative {
 	padding-bottom: 20px;
 }
 
+/*===================================*/
+
+/*Tea of the month section*/
+
 #teaOfTheMonth {
 	text-align: center;
 	width: 1000px;
-	margin: 150px auto;
+	margin: 150px auto 50px auto;
 }
 
 #teaOfTheMonth h4 {
 	margin-bottom: 25px;
 }
 
-
-
-/* bottom pictures not quite like in the redline, which I could change with a div and put the images in seperate div container and manually assign margins */
-/*I prefer the flex-wrap attempt tho to make it more responsive*/
-
 #teaImg {
 	display: flex;
-	align-items: center;
 	justify-content: space-around; 
 	flex-wrap: wrap;
 }
@@ -93,16 +97,57 @@ h2.narrative {
 	margin-top: 10px;
 }
 
+#bottomImg,
 .row {
 	display: flex;
 }
 
 #bottomImg {
-	display: flex;
 	margin: 0 auto;
 }
 
 .imgWrap {
 	margin-right: 30px;
 }
+
+/*===================================*/
+
+
+/*Locations*/
+
+#locations {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url(./images/img-locations-background.jpg);
+	height: 500px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#locationBlocks {
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+}
+
+.block {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: black;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	opacity: 1;	
+	margin: 0 20px;
+}
+
+#locations h2 {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+/*===================================*/
 
