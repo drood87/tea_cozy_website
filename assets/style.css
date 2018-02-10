@@ -107,7 +107,7 @@ h2.narrative {
 }
 
 .imgWrap {
-	margin-right: 30px;
+	padding: 20px;
 }
 
 /*===================================*/
@@ -121,7 +121,7 @@ h2.narrative {
 	align-items: center;
 	justify-content: center;
 	background-image: url(./images/img-locations-background.jpg);
-	height: 500px;
+	height: 575px; /* the background image was to small with 500px */
 	width: 1200px;
 	margin: 0 auto;
 }
@@ -139,9 +139,9 @@ h2.narrative {
 	background-color: black;
 	text-align: center;
 	width: 300px;
-	height: 300px;
+	height: 270px;
 	opacity: 1;	
-	margin: 0 20px;
+	margin: 0 20px 65px 20px;
 }
 
 #locations h2 {
@@ -150,4 +150,19 @@ h2.narrative {
 }
 
 /*===================================*/
+
+/* Contact */
+
+#contact {
+	height: 200px;
+	text-align: center;
+	width: 100%;
+}
+
+/*Footer*/
+
+#footer {
+	text-align: left;
+	margin-left: 20px;
+}
 
