@@ -13,7 +13,8 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	position: fixed;
-	z-index: 2;
+	z-index: 10;
+	background-color: black;
 	height: 69px;
 	width: 100%;
 	border-bottom: 1px solid seashell;
@@ -27,4 +28,31 @@ header {
 .navItems {
 	margin: 0 10px 0 20px;
 	text-decoration: underline;
+}
+
+#mainArticle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 69px;
+	margin: 0 auto;
+	background-image: url(./images/img-mission-background.jpg);
+	background-repeat: no-repeat;
+	height: 700px;
+	width: 1200px;
+}
+
+#missionText {
+	background-color: black;
+	text-align: center;
+	width: 1200px;
+}
+
+.narrative {
+	margin: 5px 5px;
+}
+
+h2.narrative {
+	padding-bottom: 20px;
 }
