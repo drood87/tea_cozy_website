@@ -7,9 +7,9 @@ html {
 	opacity: 0.9;
 	font-size: 22px;
 }
-
+/*==============*/
 /*heading styles*/
-
+/*==============*/
 header {
 	display: flex;
 	justify-content: space-between;
@@ -32,9 +32,11 @@ header {
 	text-decoration: underline;
 }
 
-/*===================================*/
 
+/*========================*/
 /*Mission Statement styles*/
+/*========================*/
+
 
 #mainArticle {
 	display: flex;
@@ -55,9 +57,9 @@ header {
 	width: 1200px;
 }
 
-/*===================================*/
-
+/*========================*/
 /*descriptive headings*/
+/*========================*/
 
 .narrative {
 	margin: 5px 5px;
@@ -67,9 +69,10 @@ h2.narrative {
 	padding-bottom: 20px;
 }
 
-/*===================================*/
-
+/*========================*/
 /*Tea of the month section*/
+/*========================*/
+
 
 #teaOfTheMonth {
 	text-align: center;
@@ -110,10 +113,9 @@ h2.narrative {
 	padding: 20px;
 }
 
-/*===================================*/
-
-
+/*========================*/
 /*Locations*/
+/*========================*/
 
 #locations {
 	display: flex;
@@ -129,7 +131,6 @@ h2.narrative {
 #locationBlocks {
 	display: flex;
 	justify-content: center;
-	/*align-items: center;*/
 }
 
 .block {
@@ -149,9 +150,9 @@ h2.narrative {
 	margin-bottom: 15px;
 }
 
-/*===================================*/
-
+/*========================*/
 /* Contact */
+/*========================*/
 
 #contact {
 	height: 200px;
@@ -159,7 +160,9 @@ h2.narrative {
 	width: 100%;
 }
 
+/*========================*/
 /*Footer*/
+/*========================*/
 
 #footer {
 	text-align: left;
